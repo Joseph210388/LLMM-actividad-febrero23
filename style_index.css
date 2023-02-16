@@ -52,39 +52,12 @@ ul .style_font {
     height: 40px;
 }
 
-/* button */
-button {
-    width: 100px;
-    height: 30px;
+/* burger o boton de menu */
+.boton_menu {
+    padding: 12px;
 }
 
-button a {
-    font-family: 'Kanit', sans-serif;
-    text-decoration: none;
-}
-
-.button_font1 {
-    color: rgb(87, 188, 255);
-}
-
-.button_font2 {
-    color: white;
-}
-
-.button_login {
-    background-color: rgb(255, 255, 255);
-    border: rgb(70, 162, 248) 2px solid;
-    height: 30px;
-    border-radius: 8px;
-
-}
-
-.button_register {
-    background-color: rgb(109, 182, 250);
-    border: rgb(109, 182, 250) 2px solid;
-    height: 30px;
-    border-radius: 8px;
-}
+/* Fin de boton de menu */
 
 /* Fin de barra de navegacion */
 
@@ -97,3 +70,18 @@ button a {
 }
 
 /* Fin video */
+
+/* Media Screen */
+@media (min-width:700px) {
+    .boton_menu {
+        display: none;
+    }
+}
+
+@media (max-width:700px) {
+    .tablet-hidden {
+        display: none;
+    }
+}
+
+/* Fin de Media Screen */
